@@ -15,7 +15,7 @@
     it("The customer age and number of haircuts \
       should be a property of the customer", function() {
       var temilaj  = new SalonCustomer('adult');
-      expect(temilaj.age).toBe('adult');
+      expect(temilaj.category).toBe('adult');
       expect(temilaj.numOfHairCuts).toBe(0);
     });
 

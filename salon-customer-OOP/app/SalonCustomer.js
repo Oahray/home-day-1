@@ -1,9 +1,9 @@
-var SalonCustomer = function(age) {
-	this.age = age;
+var SalonCustomer = function(category) {
+	this.category = category;
 	this.numOfHairCuts = 0;
 
 	this.rate;
-	if (this.age === 'child') {
+	if (this.category === 'child') {
 		this.rate = 200;
 	}
 	else {
